@@ -1,0 +1,336 @@
+{
+  "videoType": "product",
+  "shots": [
+    {
+      "id": 1,
+      "title": "两种 Agent 思路",
+      "kicker": "MUSE / GROK BOT",
+      "kind": "hero",
+      "items": [
+        "Muse",
+        "Grok Bot"
+      ],
+      "footer": "一个管家 · 一支团队",
+      "sentences": [
+        1
+      ],
+      "semanticSignature": "hero / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 2,
+      "title": "AI 开始替你干活",
+      "kicker": "FROM ANSWERS TO ACTIONS",
+      "kind": "shift",
+      "items": [
+        "回答问题",
+        "完成任务"
+      ],
+      "footer": "从对话，走向行动",
+      "sentences": [
+        2
+      ],
+      "semanticSignature": "shift / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 3,
+      "title": "同样是 Agent",
+      "kicker": "TWO DIRECTIONS",
+      "kind": "compare",
+      "items": [
+        "个人 AI 管家",
+        "AI 员工团队"
+      ],
+      "footer": "产品思路，走向两端",
+      "sentences": [
+        3
+      ],
+      "semanticSignature": "compare / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 4,
+      "title": "一个长期陪伴的管家",
+      "kicker": "01 / MUSE",
+      "kind": "orbit",
+      "items": [
+        "你",
+        "记忆",
+        "工具",
+        "执行"
+      ],
+      "footer": "不用自己搭复杂工作流",
+      "sentences": [
+        4,
+        5
+      ],
+      "semanticSignature": "orbit / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 5,
+      "title": "把生活交给一句话",
+      "kicker": "MUSE / EVERYDAY",
+      "kind": "requests",
+      "items": [
+        "规划下周行程",
+        "寻找适合的活动",
+        "预订餐厅"
+      ],
+      "footer": "说出需求，开始执行",
+      "sentences": [
+        6,
+        7,
+        8
+      ],
+      "semanticSignature": "requests / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 6,
+      "title": "从理解到完成",
+      "kicker": "MUSE / EXECUTION",
+      "kind": "process",
+      "items": [
+        "理解任务",
+        "制定计划",
+        "调用应用",
+        "完成任务"
+      ],
+      "footer": "浏览器 + 应用 + 云端电脑",
+      "sentences": [
+        9,
+        10
+      ],
+      "semanticSignature": "process / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 7,
+      "title": "始终是同一个 Muse",
+      "kicker": "MUSE / PERSONAL AGENT",
+      "kind": "formula",
+      "items": [
+        "一个 Agent",
+        "长期记忆",
+        "工具",
+        "持续执行"
+      ],
+      "footer": "越用，越懂你",
+      "sentences": [
+        11,
+        12
+      ],
+      "semanticSignature": "formula / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 8,
+      "title": "组建一支 AI 团队",
+      "kicker": "02 / GROK BOT",
+      "kind": "team",
+      "items": [
+        "Research",
+        "Content",
+        "Career"
+      ],
+      "footer": "不同角色，各司其职",
+      "sentences": [
+        13,
+        14,
+        15
+      ],
+      "semanticSignature": "team / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 9,
+      "title": "每个角色都有任务",
+      "kicker": "GROK BOT / ROLES",
+      "kind": "roles",
+      "items": [
+        "Research Bot|寻找 AI 信息",
+        "Content Bot|整理选题和内容",
+        "Career Bot|跟踪岗位信息"
+      ],
+      "footer": "分工，让工作持续流转",
+      "sentences": [
+        16,
+        17,
+        18
+      ],
+      "semanticSignature": "roles / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 10,
+      "title": "分工，也共享环境",
+      "kicker": "GROK BOT / WORKFLOW",
+      "kind": "formula",
+      "items": [
+        "多个 Agent",
+        "不同角色",
+        "Workflow",
+        "自动执行"
+      ],
+      "footer": "任务独立 · 工具共享",
+      "sentences": [
+        19,
+        20
+      ],
+      "semanticSignature": "formula / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 11,
+      "title": "一个懂你 · 一群分工",
+      "kicker": "03 / THE DIFFERENCE",
+      "kind": "compare",
+      "items": [
+        "一个越来越懂你的 AI",
+        "一群各司其职的 AI 员工"
+      ],
+      "footer": "Muse / Grok Bot",
+      "sentences": [
+        21,
+        22
+      ],
+      "semanticSignature": "compare / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 12,
+      "title": "核心差异在这里",
+      "kicker": "PERSONAL / MULTI-AGENT",
+      "kind": "compare",
+      "items": [
+        "Personal Agent",
+        "Multi-Agent Workflow"
+      ],
+      "footer": "长期陪伴 / 角色协作",
+      "sentences": [
+        23,
+        24
+      ],
+      "semanticSignature": "compare / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 13,
+      "title": "生活事务，交给管家",
+      "kicker": "04 / HOW TO CHOOSE",
+      "kind": "choice",
+      "items": [
+        "生活",
+        "行程",
+        "购物",
+        "信息整理"
+      ],
+      "footer": "Muse 的产品逻辑更自然",
+      "sentences": [
+        25
+      ],
+      "semanticSignature": "choice / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 14,
+      "title": "重复工作，交给团队",
+      "kicker": "04 / HOW TO CHOOSE",
+      "kind": "choice",
+      "items": [
+        "找选题",
+        "监控信息",
+        "整理资料",
+        "生成内容"
+      ],
+      "footer": "Grok Bot 的分工方式更适合",
+      "sentences": [
+        26
+      ],
+      "semanticSignature": "choice / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 15,
+      "title": "值得关注的是变化",
+      "kicker": "05 / THE BIGGER SHIFT",
+      "kind": "statement",
+      "items": [
+        "AI 产品",
+        "正在改变"
+      ],
+      "footer": "从谁更强，看到如何工作",
+      "sentences": [
+        27,
+        28
+      ],
+      "semanticSignature": "statement / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 16,
+      "title": "过去：一问一答",
+      "kicker": "BEFORE",
+      "kind": "dialog",
+      "items": [
+        "人提出问题",
+        "AI 回答"
+      ],
+      "footer": "以聊天窗口为中心",
+      "sentences": [
+        29
+      ],
+      "semanticSignature": "dialog / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 17,
+      "title": "现在：目标驱动执行",
+      "kicker": "AFTER",
+      "kind": "process",
+      "items": [
+        "提出目标",
+        "拆解任务",
+        "调用工具",
+        "执行任务",
+        "持续工作"
+      ],
+      "footer": "围绕目标，形成行动链",
+      "sentences": [
+        30
+      ],
+      "semanticSignature": "process / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 18,
+      "title": "不必打开十几个窗口",
+      "kicker": "A NEW WAY TO WORK",
+      "kind": "windows",
+      "items": [
+        "一个目标",
+        "持续推进"
+      ],
+      "footer": "减少来回切换",
+      "sentences": [
+        31
+      ],
+      "semanticSignature": "windows / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 19,
+      "title": "你说「我要什么」",
+      "kicker": "YOU SET THE GOAL",
+      "kind": "shift",
+      "items": [
+        "你决定目标",
+        "AI 决定怎么完成"
+      ],
+      "footer": "从提问者，成为目标制定者",
+      "sentences": [
+        32
+      ],
+      "semanticSignature": "shift / 清晰理性 / 稳定中速"
+    },
+    {
+      "id": 20,
+      "title": "Agent 的有趣之处",
+      "kicker": "THE NEXT INTERFACE",
+      "kind": "final",
+      "items": [
+        "告诉 AI 目标",
+        "让行动持续发生"
+      ],
+      "footer": "Muse × Grok Bot · 两种产品思路",
+      "sentences": [
+        33
+      ],
+      "semanticSignature": "final / 清晰理性 / 稳定中速"
+    }
+  ]
+}

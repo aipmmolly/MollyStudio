@@ -1,0 +1,32 @@
+{
+  "name": "mollystudio",
+  "version": "1.0.0",
+  "description": "本地 AI 内容生产工作台，复用 Wordmotion 视频引擎",
+  "main": "index.js",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Wordmotion out/final.mp4 --codec=h264 --crf=20",
+    "typecheck": "tsc",
+    "dev": "node --watch server/index.mjs",
+    "start": "node server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:e2e": "node tests/e2e.mjs",
+    "test:manual": "node tests/manual-e2e.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/captions": "^4.0.538",
+    "@remotion/cli": "^4.0.538",
+    "@remotion/media": "^4.0.538",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+
+.env
+.env.*
+!.env.example
+.mollystudio/
+
+# 本地导出与测试产物
+out/
+*.log

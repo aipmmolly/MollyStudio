@@ -1,0 +1,332 @@
+[
+  {
+    "text": "最近 AI 圈出现了两个很有意思的 Agent 产品：Muse 和 Grok Bot。",
+    "startMs": 0.0,
+    "endMs": 6264.000000000001,
+    "sentenceIndex": 1,
+    "audioFile": "s_001.mp3",
+    "charCount": 43,
+    "startFrame": 0,
+    "durationFrames": 188
+  },
+  {
+    "text": "它们看起来都在做一件事：让 AI 不只是回答问题，而是真的替你干活。",
+    "startMs": 6266.666666666667,
+    "endMs": 13274.666666666666,
+    "sentenceIndex": 2,
+    "audioFile": "s_002.mp3",
+    "charCount": 34,
+    "startFrame": 188,
+    "durationFrames": 211
+  },
+  {
+    "text": "但如果仔细看，你会发现它们其实代表了两种完全不同的 Agent 产品思路。",
+    "startMs": 13300.0,
+    "endMs": 20548.0,
+    "sentenceIndex": 3,
+    "audioFile": "s_003.mp3",
+    "charCount": 37,
+    "startFrame": 399,
+    "durationFrames": 218
+  },
+  {
+    "text": "Muse 更像一个长期陪着你的「个人 AI 管家」。",
+    "startMs": 20566.666666666668,
+    "endMs": 24862.666666666668,
+    "sentenceIndex": 4,
+    "audioFile": "s_004.mp3",
+    "charCount": 26,
+    "startFrame": 617,
+    "durationFrames": 129
+  },
+  {
+    "text": "你不需要自己搭复杂的工作流。",
+    "startMs": 24866.666666666668,
+    "endMs": 27818.666666666668,
+    "sentenceIndex": 5,
+    "audioFile": "s_005.mp3",
+    "charCount": 14,
+    "startFrame": 746,
+    "durationFrames": 89
+  },
+  {
+    "text": "只需要告诉它：“帮我规划下周的行程。",
+    "startMs": 27833.333333333332,
+    "endMs": 31625.333333333332,
+    "sentenceIndex": 6,
+    "audioFile": "s_006.mp3",
+    "charCount": 18,
+    "startFrame": 835,
+    "durationFrames": 114
+  },
+  {
+    "text": "“每天看看有没有适合我的活动。",
+    "startMs": 31633.333333333332,
+    "endMs": 34825.333333333336,
+    "sentenceIndex": 7,
+    "audioFile": "s_007.mp3",
+    "charCount": 15,
+    "startFrame": 949,
+    "durationFrames": 96
+  },
+  {
+    "text": "“帮我订餐厅。",
+    "startMs": 34833.333333333336,
+    "endMs": 36513.333333333336,
+    "sentenceIndex": 8,
+    "audioFile": "s_008.mp3",
+    "charCount": 7,
+    "startFrame": 1045,
+    "durationFrames": 51
+  },
+  {
+    "text": "Muse 会自己理解任务、制定计划，然后调用浏览器和连接的应用去完成任务。",
+    "startMs": 36533.333333333336,
+    "endMs": 43949.333333333336,
+    "sentenceIndex": 9,
+    "audioFile": "s_009.mp3",
+    "charCount": 37,
+    "startFrame": 1096,
+    "durationFrames": 223
+  },
+  {
+    "text": "它甚至有一台属于自己的云端电脑。",
+    "startMs": 43966.666666666664,
+    "endMs": 47302.666666666664,
+    "sentenceIndex": 10,
+    "audioFile": "s_010.mp3",
+    "charCount": 16,
+    "startFrame": 1319,
+    "durationFrames": 101
+  },
+  {
+    "text": "所以 Muse 的核心逻辑是：一个 Agent ， 长期记忆 ， 工具 ， 持续执行。",
+    "startMs": 47333.333333333336,
+    "endMs": 54149.333333333336,
+    "sentenceIndex": 11,
+    "audioFile": "s_011.mp3",
+    "charCount": 43,
+    "startFrame": 1420,
+    "durationFrames": 205
+  },
+  {
+    "text": "你面对的始终是同一个 Muse。",
+    "startMs": 54166.666666666664,
+    "endMs": 57214.666666666664,
+    "sentenceIndex": 12,
+    "audioFile": "s_012.mp3",
+    "charCount": 16,
+    "startFrame": 1625,
+    "durationFrames": 92
+  },
+  {
+    "text": "Grok Bot 的思路不太一样。",
+    "startMs": 57233.333333333336,
+    "endMs": 59897.333333333336,
+    "sentenceIndex": 13,
+    "audioFile": "s_013.mp3",
+    "charCount": 17,
+    "startFrame": 1717,
+    "durationFrames": 80
+  },
+  {
+    "text": "它更像是在给你组建一支「AI 员工团队」。",
+    "startMs": 59900.0,
+    "endMs": 64124.0,
+    "sentenceIndex": 14,
+    "audioFile": "s_014.mp3",
+    "charCount": 21,
+    "startFrame": 1797,
+    "durationFrames": 127
+  },
+  {
+    "text": "比如你可以有：",
+    "startMs": 64133.333333333336,
+    "endMs": 65909.33333333333,
+    "sentenceIndex": 15,
+    "audioFile": "s_015.mp3",
+    "charCount": 7,
+    "startFrame": 1924,
+    "durationFrames": 54
+  },
+  {
+    "text": "Research Bot   负责每天寻找最新的 AI 信息。",
+    "startMs": 65933.33333333333,
+    "endMs": 70277.33333333333,
+    "sentenceIndex": 16,
+    "audioFile": "s_016.mp3",
+    "charCount": 31,
+    "startFrame": 1978,
+    "durationFrames": 131
+  },
+  {
+    "text": "Content Bot   负责把信息整理成选题和内容。",
+    "startMs": 70300.0,
+    "endMs": 74668.0,
+    "sentenceIndex": 17,
+    "audioFile": "s_017.mp3",
+    "charCount": 28,
+    "startFrame": 2109,
+    "durationFrames": 132
+  },
+  {
+    "text": "Career Bot   负责跟踪岗位和求职信息。",
+    "startMs": 74700.0,
+    "endMs": 78516.0,
+    "sentenceIndex": 18,
+    "audioFile": "s_018.mp3",
+    "charCount": 25,
+    "startFrame": 2241,
+    "durationFrames": 115
+  },
+  {
+    "text": "不同 Bot 有自己的任务，但又可以共享工具和工作环境。",
+    "startMs": 78533.33333333333,
+    "endMs": 83885.33333333333,
+    "sentenceIndex": 19,
+    "audioFile": "s_019.mp3",
+    "charCount": 28,
+    "startFrame": 2356,
+    "durationFrames": 161
+  },
+  {
+    "text": "所以它更像：多个 Agent ， 不同角色 ， Workflow ， 自动执行。",
+    "startMs": 83900.0,
+    "endMs": 89972.0,
+    "sentenceIndex": 20,
+    "audioFile": "s_020.mp3",
+    "charCount": 40,
+    "startFrame": 2517,
+    "durationFrames": 183
+  },
+  {
+    "text": "如果用一句话总结：Muse 是“一个越来越懂你的 AI”。",
+    "startMs": 90000.0,
+    "endMs": 94920.0,
+    "sentenceIndex": 21,
+    "audioFile": "s_021.mp3",
+    "charCount": 29,
+    "startFrame": 2700,
+    "durationFrames": 148
+  },
+  {
+    "text": "而 Grok Bot 更像：“一群各司其职的 AI 员工”。",
+    "startMs": 94933.33333333333,
+    "endMs": 99517.33333333333,
+    "sentenceIndex": 22,
+    "audioFile": "s_022.mp3",
+    "charCount": 30,
+    "startFrame": 2848,
+    "durationFrames": 138
+  },
+  {
+    "text": "Muse 更强调 Personal Agent。",
+    "startMs": 99533.33333333333,
+    "endMs": 102389.33333333333,
+    "sentenceIndex": 23,
+    "audioFile": "s_023.mp3",
+    "charCount": 24,
+    "startFrame": 2986,
+    "durationFrames": 86
+  },
+  {
+    "text": "Grok Bot 更强调 Multi-Agent Workflow。",
+    "startMs": 102400.0,
+    "endMs": 105952.0,
+    "sentenceIndex": 24,
+    "audioFile": "s_024.mp3",
+    "charCount": 34,
+    "startFrame": 3072,
+    "durationFrames": 107
+  },
+  {
+    "text": "如果你只是希望：AI 帮你处理生活、行程、购物、信息整理这些事情，Muse 的产品逻辑会更自然。",
+    "startMs": 105966.66666666667,
+    "endMs": 115518.66666666667,
+    "sentenceIndex": 25,
+    "audioFile": "s_025.mp3",
+    "charCount": 48,
+    "startFrame": 3179,
+    "durationFrames": 287
+  },
+  {
+    "text": "但如果你的需求是：每天找选题、监控信息、整理资料、生成内容、执行固定工作流，Grok Bot 这种多个 Agent 分工的方式可能更适合。",
+    "startMs": 115533.33333333333,
+    "endMs": 128421.33333333333,
+    "sentenceIndex": 26,
+    "audioFile": "s_026.mp3",
+    "charCount": 69,
+    "startFrame": 3466,
+    "durationFrames": 387
+  },
+  {
+    "text": "其实不是谁更强。",
+    "startMs": 128433.33333333333,
+    "endMs": 130617.33333333333,
+    "sentenceIndex": 27,
+    "audioFile": "s_027.mp3",
+    "charCount": 8,
+    "startFrame": 3853,
+    "durationFrames": 66
+  },
+  {
+    "text": "而是 AI 产品正在发生一个很明显的变化。",
+    "startMs": 130633.33333333333,
+    "endMs": 134929.33333333334,
+    "sentenceIndex": 28,
+    "audioFile": "s_028.mp3",
+    "charCount": 21,
+    "startFrame": 3919,
+    "durationFrames": 129
+  },
+  {
+    "text": "以前我们使用 AI 是：人提出问题 ， AI 回答。",
+    "startMs": 134933.33333333334,
+    "endMs": 139877.33333333334,
+    "sentenceIndex": 29,
+    "audioFile": "s_029.mp3",
+    "charCount": 26,
+    "startFrame": 4048,
+    "durationFrames": 149
+  },
+  {
+    "text": "现在正在变成：人提出目标 ， Agent 拆解任务 ， 调用工具 ， 执行任务 ， 持续工作。",
+    "startMs": 139900.0,
+    "endMs": 147820.0,
+    "sentenceIndex": 30,
+    "audioFile": "s_030.mp3",
+    "charCount": 47,
+    "startFrame": 4197,
+    "durationFrames": 238
+  },
+  {
+    "text": "所以未来我们使用 AI 的方式，可能不再是打开十几个聊天窗口。",
+    "startMs": 147833.33333333334,
+    "endMs": 153857.33333333334,
+    "sentenceIndex": 31,
+    "audioFile": "s_031.mp3",
+    "charCount": 31,
+    "startFrame": 4435,
+    "durationFrames": 181
+  },
+  {
+    "text": "而是：你负责告诉 AI“我要什么”，AI 自己决定“这件事怎么完成”。",
+    "startMs": 153866.66666666666,
+    "endMs": 160250.66666666666,
+    "sentenceIndex": 32,
+    "audioFile": "s_032.mp3",
+    "charCount": 35,
+    "startFrame": 4616,
+    "durationFrames": 192
+  },
+  {
+    "text": "这可能才是 Agent 真正有意思的地方。",
+    "startMs": 160266.66666666666,
+    "endMs": 164082.66666666666,
+    "sentenceIndex": 33,
+    "audioFile": "s_033.mp3",
+    "charCount": 21,
+    "startFrame": 4808,
+    "durationFrames": 115
+  }
+]

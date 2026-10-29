@@ -1,0 +1,15 @@
+import test,{before,after} from 'node:test';
+import assert from 'node:assert/strict';
+import {spawn} from 'node:child_process';
+import {mkdtemp,rm} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+const port=33219,url=`http://localhost:${port}`;let child,temp;
+before(async()=>{temp=await mkdtemp(join(tmpdir(),'mollystudio-test-'));child=spawn(process.execPath,['server/index.mjs'],{env:{...process.env,PORT:String(port),MOLLY_DATA_DIR:temp,LLM_BASE_URL:'https://openrouter.ai/api/v1',LLM_API_KEY:'',OPENROUTER_API_KEY:''},stdio:['ignore','pipe','pipe']});let logs='';child.stdout.on('data',b=>logs+=b);child.stderr.on('data',b=>logs+=b);for(let i=0;i<70;i++){try{if((await fetch(url+'/api/config')).ok)return;}catch{}await new Promise(r=>setTimeout(r,100));}throw Error('测试服务未启动：'+logs);});
+after(async()=>{child?.kill('SIGTERM');if(child)await new Promise(r=>child.once('close',r));if(temp)await rm(temp,{recursive:true,force:true});});
+const post=(path,data,headers={})=>fetch(url+path,{method:'POST',headers:{'Content-Type':'application/json',...headers},body:JSON.stringify(data)});
+test('配置端点不暴露密钥；空 Key 仍能打开工作台',async()=>{const r=await fetch(url+'/api/config');const data=await r.json();assert.equal(data.keyConfigured,false);assert.equal(data.apiKey,undefined);assert.equal(data.tools.remotion,true);const page=await fetch(url);assert.equal(page.status,200);assert.match(await page.text(),/MollyStudio/);});
+test('无 Key 的真实模型请求返回可处理的错误',async()=>{const r=await post('/api/generate',{topic:'阅读',style:'知识科普',platform:'抖音',duration:30});assert.equal(r.status,422);assert.match((await r.json()).error,/API Key/);});
+test('拒绝空文稿、无效声音及超长文稿',async()=>{for(const input of [{script:'！？',voice:'zh-CN-XiaoxiaoNeural',rate:'normal'},{script:'你好',voice:'$(touch nope)',rate:'normal'},{script:'文'.repeat(6001),voice:'zh-CN-XiaoxiaoNeural',rate:'normal'}])assert.equal((await post('/api/jobs',input)).status,400);});
+test('拒绝跨站操作以及读取工作目录的任意文件',async()=>{assert.equal((await post('/api/jobs',{script:'测试'}, {Origin:'https://other.example'})).status,403);assert.equal((await fetch(url+'/.env')).status,404);assert.equal((await fetch(url+'/server/index.mjs')).status,404);});
+test('没有成功文件的任务不会返回伪视频',async()=>{assert.equal((await fetch(url+'/api/jobs/00000000-0000-0000-0000-000000000000/video')).status,404);});

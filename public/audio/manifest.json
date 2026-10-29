@@ -1,0 +1,233 @@
+[
+  {
+    "index": 1,
+    "id": "s_001",
+    "filename": "s_001.mp3",
+    "text": "最近 AI 圈出现了两个很有意思的 Agent 产品：Muse 和 Grok Bot。",
+    "charCount": 43
+  },
+  {
+    "index": 2,
+    "id": "s_002",
+    "filename": "s_002.mp3",
+    "text": "它们看起来都在做一件事：让 AI 不只是回答问题，而是真的替你干活。",
+    "charCount": 34
+  },
+  {
+    "index": 3,
+    "id": "s_003",
+    "filename": "s_003.mp3",
+    "text": "但如果仔细看，你会发现它们其实代表了两种完全不同的 Agent 产品思路。",
+    "charCount": 37
+  },
+  {
+    "index": 4,
+    "id": "s_004",
+    "filename": "s_004.mp3",
+    "text": "Muse 更像一个长期陪着你的「个人 AI 管家」。",
+    "charCount": 26
+  },
+  {
+    "index": 5,
+    "id": "s_005",
+    "filename": "s_005.mp3",
+    "text": "你不需要自己搭复杂的工作流。",
+    "charCount": 14
+  },
+  {
+    "index": 6,
+    "id": "s_006",
+    "filename": "s_006.mp3",
+    "text": "只需要告诉它：“帮我规划下周的行程。",
+    "charCount": 18
+  },
+  {
+    "index": 7,
+    "id": "s_007",
+    "filename": "s_007.mp3",
+    "text": "“每天看看有没有适合我的活动。",
+    "charCount": 15
+  },
+  {
+    "index": 8,
+    "id": "s_008",
+    "filename": "s_008.mp3",
+    "text": "“帮我订餐厅。",
+    "charCount": 7
+  },
+  {
+    "index": 9,
+    "id": "s_009",
+    "filename": "s_009.mp3",
+    "text": "Muse 会自己理解任务、制定计划，然后调用浏览器和连接的应用去完成任务。",
+    "charCount": 37
+  },
+  {
+    "index": 10,
+    "id": "s_010",
+    "filename": "s_010.mp3",
+    "text": "它甚至有一台属于自己的云端电脑。",
+    "charCount": 16
+  },
+  {
+    "index": 11,
+    "id": "s_011",
+    "filename": "s_011.mp3",
+    "text": "所以 Muse 的核心逻辑是：一个 Agent ， 长期记忆 ， 工具 ， 持续执行。",
+    "charCount": 43
+  },
+  {
+    "index": 12,
+    "id": "s_012",
+    "filename": "s_012.mp3",
+    "text": "你面对的始终是同一个 Muse。",
+    "charCount": 16
+  },
+  {
+    "index": 13,
+    "id": "s_013",
+    "filename": "s_013.mp3",
+    "text": "Grok Bot 的思路不太一样。",
+    "charCount": 17
+  },
+  {
+    "index": 14,
+    "id": "s_014",
+    "filename": "s_014.mp3",
+    "text": "它更像是在给你组建一支「AI 员工团队」。",
+    "charCount": 21
+  },
+  {
+    "index": 15,
+    "id": "s_015",
+    "filename": "s_015.mp3",
+    "text": "比如你可以有：",
+    "charCount": 7
+  },
+  {
+    "index": 16,
+    "id": "s_016",
+    "filename": "s_016.mp3",
+    "text": "Research Bot   负责每天寻找最新的 AI 信息。",
+    "charCount": 31
+  },
+  {
+    "index": 17,
+    "id": "s_017",
+    "filename": "s_017.mp3",
+    "text": "Content Bot   负责把信息整理成选题和内容。",
+    "charCount": 28
+  },
+  {
+    "index": 18,
+    "id": "s_018",
+    "filename": "s_018.mp3",
+    "text": "Career Bot   负责跟踪岗位和求职信息。",
+    "charCount": 25
+  },
+  {
+    "index": 19,
+    "id": "s_019",
+    "filename": "s_019.mp3",
+    "text": "不同 Bot 有自己的任务，但又可以共享工具和工作环境。",
+    "charCount": 28
+  },
+  {
+    "index": 20,
+    "id": "s_020",
+    "filename": "s_020.mp3",
+    "text": "所以它更像：多个 Agent ， 不同角色 ， Workflow ， 自动执行。",
+    "charCount": 40
+  },
+  {
+    "index": 21,
+    "id": "s_021",
+    "filename": "s_021.mp3",
+    "text": "如果用一句话总结：Muse 是“一个越来越懂你的 AI”。",
+    "charCount": 29
+  },
+  {
+    "index": 22,
+    "id": "s_022",
+    "filename": "s_022.mp3",
+    "text": "而 Grok Bot 更像：“一群各司其职的 AI 员工”。",
+    "charCount": 30
+  },
+  {
+    "index": 23,
+    "id": "s_023",
+    "filename": "s_023.mp3",
+    "text": "Muse 更强调 Personal Agent。",
+    "charCount": 24
+  },
+  {
+    "index": 24,
+    "id": "s_024",
+    "filename": "s_024.mp3",
+    "text": "Grok Bot 更强调 Multi-Agent Workflow。",
+    "charCount": 34
+  },
+  {
+    "index": 25,
+    "id": "s_025",
+    "filename": "s_025.mp3",
+    "text": "如果你只是希望：AI 帮你处理生活、行程、购物、信息整理这些事情，Muse 的产品逻辑会更自然。",
+    "charCount": 48
+  },
+  {
+    "index": 26,
+    "id": "s_026",
+    "filename": "s_026.mp3",
+    "text": "但如果你的需求是：每天找选题、监控信息、整理资料、生成内容、执行固定工作流，Grok Bot 这种多个 Agent 分工的方式可能更适合。",
+    "charCount": 69
+  },
+  {
+    "index": 27,
+    "id": "s_027",
+    "filename": "s_027.mp3",
+    "text": "其实不是谁更强。",
+    "charCount": 8
+  },
+  {
+    "index": 28,
+    "id": "s_028",
+    "filename": "s_028.mp3",
+    "text": "而是 AI 产品正在发生一个很明显的变化。",
+    "charCount": 21
+  },
+  {
+    "index": 29,
+    "id": "s_029",
+    "filename": "s_029.mp3",
+    "text": "以前我们使用 AI 是：人提出问题 ， AI 回答。",
+    "charCount": 26
+  },
+  {
+    "index": 30,
+    "id": "s_030",
+    "filename": "s_030.mp3",
+    "text": "现在正在变成：人提出目标 ， Agent 拆解任务 ， 调用工具 ， 执行任务 ， 持续工作。",
+    "charCount": 47
+  },
+  {
+    "index": 31,
+    "id": "s_031",
+    "filename": "s_031.mp3",
+    "text": "所以未来我们使用 AI 的方式，可能不再是打开十几个聊天窗口。",
+    "charCount": 31
+  },
+  {
+    "index": 32,
+    "id": "s_032",
+    "filename": "s_032.mp3",
+    "text": "而是：你负责告诉 AI“我要什么”，AI 自己决定“这件事怎么完成”。",
+    "charCount": 35
+  },
+  {
+    "index": 33,
+    "id": "s_033",
+    "filename": "s_033.mp3",
+    "text": "这可能才是 Agent 真正有意思的地方。",
+    "charCount": 21
+  }
+]
